@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
         Lato: ['Lato', 'sans-serif'],
-        AtypTest: ['AtypTest'],
+        AtypTest: ['AtypTest', 'sans-serif'],
       },
       colors: {
         black: '#1f1d1d',
