@@ -1,3 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'AtypTest';
+    src: url("./fonts/AtypText.woff");
+}
