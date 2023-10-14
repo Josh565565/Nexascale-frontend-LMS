@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Poppins: ['Poppins', 'sans-serif'],
-        Lato: ['Lato', 'sans-serif'],
-        AtypTest: ['AtypTest', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        atypTest: ['AtypTest', 'sans-serif'],
       },
       colors: {
         black: '#1f1d1d',
