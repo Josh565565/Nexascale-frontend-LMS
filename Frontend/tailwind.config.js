@@ -9,10 +9,11 @@ export default {
         atypTest: ['AtypTest', 'sans-serif'],
       },
       colors: {
-        black: '#1f1d1d',
+        'nexa-black': '#1f1d1d',
         'nexa-yellow-800': '#ff9a2b',
         'nexa-yellow-500': 'ffb930',
         'nexa-yellow-200': '#ffdc73',
+        'nexa-green': '#59A96A',
       },
       screens: {
         wide: '1440px',
