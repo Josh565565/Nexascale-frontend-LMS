@@ -44,11 +44,11 @@
       }
     
       .padding-t {
-        @apply sm:pt-24 pt-12;
+        @apply sm:pt-24 pt-20;
       }
     
       .padding-b {
-        @apply sm:pb-24 pb-12;
+        @apply sm:pb-24 pb-20;
       }
     
 }
