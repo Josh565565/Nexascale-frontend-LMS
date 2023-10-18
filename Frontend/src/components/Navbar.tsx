@@ -17,7 +17,7 @@ const Navbar = () => {
           <li className="">Subscribe</li>
           <li className="">Login</li>
           <button type='button'
-          className='bg-nexa-yellow-800 px-5 py-2 rounded-full  text-white'>Get Started</button>
+          className='bg-nexa-yellow-800 px-5 py-2 rounded-full text-white'>Get Started</button>
         </ul>
       </nav>
     </header>

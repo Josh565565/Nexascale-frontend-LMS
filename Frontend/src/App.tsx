@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 import Index from './pages/landing/Index';
 
-
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
