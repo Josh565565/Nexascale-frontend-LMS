@@ -58,6 +58,17 @@ module.exports = {
       },
     ],
     'react/react-in-jsx-scope': 0,
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: [
+          'function-declaration',
+          'function-expression',
+          'arrow-function',
+        ],
+        unnamedComponents: ['function-expression', 'arrow-function'],
+      },
+    ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/no-cycle': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
