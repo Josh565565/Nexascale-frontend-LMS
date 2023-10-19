@@ -33,7 +33,7 @@ export const services: Service[] = [
   },
 ];
 
-export const howItWork:Service[] = [
+export const howItWork: Service[] = [
   {
     imgURL: number1,
     label: 'Sign Up',

@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo.png';
+import logo from '@/assets/images/Logo.png';
 
 const Footer = () => {
   return (
@@ -18,16 +18,15 @@ const Footer = () => {
         <div className=" flex flex-col text-white ">
           <h3 className="text-2xl font-medium leading-normal">Contact us</h3>
           <p>
-            <span></span>
+            <span />
             Phone-number
           </p>
           <p>
-            <span></span>
+            <span />
             nexascale.com
           </p>
           <p>
-            <span></span>
-            
+            <span />
           </p>
         </div>
         <div className=" flex flex-col text-white">

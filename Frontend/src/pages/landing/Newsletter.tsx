@@ -13,7 +13,7 @@ const Newsletter = () => {
           newsletter
         </p>
         <div className="mt-8 flex w-full gap-8  max-sm:flex-col">
-          <div className="sm:border-slate-gray  rounded-md p-2.5 sm:border">
+          <div className="rounded-md  p-2.5 sm:border sm:border-slate-gray">
             <input type="text" placeholder="yoremail.com" className="input" />
           </div>
           <button

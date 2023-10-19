@@ -1,6 +1,10 @@
-import { Service } from '@/constant';
+type ServicesCardProps = {
+  imgURL: string;
+  label: string;
+  subtext: string;
+};
 
-const ServicesCard: React.FC<Service> = ({ imgURL, label, subtext }) => {
+const ServicesCard = ({ imgURL, label, subtext }: ServicesCardProps) => {
   return (
     <div className="w-full flex-1 justify-center rounded-md bg-white p-10 shadow-xl ">
       <div className="flex justify-center">
