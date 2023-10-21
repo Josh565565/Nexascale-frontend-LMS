@@ -3,7 +3,7 @@ import howItWorks from '../../assets/images/howItWorks.png';
 
 const HowitWorks = () => {
   return (
-    <div className="flex w-full flex-wrap gap-28 max-lg:flex-col">
+    <div className="flex w-full flex-wrap justify-between max-lg:flex-col">
       <div className="flex justify-center">
         <img
           src={howItWorks}

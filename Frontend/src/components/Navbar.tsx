@@ -2,7 +2,7 @@ import logo from '@/assets/images/Logo.png';
 
 const Navbar = () => {
   return (
-    <header className="fixed left-0 right-0  z-10 overflow-hidden">
+    <header className="fixed left-0 right-0  z-10 overflow-hidden max-container">
       <nav
         className=" mx-auto mt-10 flex h-[64px] w-11/12 cursor-pointer 
       items-center justify-between rounded-full bg-white px-8"
