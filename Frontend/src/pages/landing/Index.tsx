@@ -7,9 +7,9 @@ import Footer from './Footer';
 
 function Index() {
   return (
-    <main className="relative">
+    <main className="relative ">
       <Navbar />
-      <Hero />
+      <div className="bg-nexa-green padding"><Hero /></div>
       <section className="padding">
         <Service />
       </section>
