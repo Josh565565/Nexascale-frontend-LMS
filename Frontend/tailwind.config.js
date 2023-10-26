@@ -15,6 +15,7 @@ export default {
         'nexa-yellow-200': '#ffdc73',
         'nexa-green': '#59A96A',
         'slate-gray': '#D9D9D9',
+        'nexa-white': "#ffffff"
       },
       screens: {
         wide: '1440px',

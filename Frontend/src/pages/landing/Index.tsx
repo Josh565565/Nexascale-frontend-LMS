@@ -9,7 +9,9 @@ function Index() {
   return (
     <main className="relative ">
       <Navbar />
-      <div className="bg-nexa-green padding"><Hero /></div>
+      <div className="padding bg-nexa-green">
+        <Hero />
+      </div>
       <section className="padding">
         <Service />
       </section>
