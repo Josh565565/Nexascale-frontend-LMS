@@ -16,10 +16,12 @@
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
     "react-router-dom": "^6.17.0",
     "react-scroll": "^1.9.0"
   },
   "devDependencies": {
+    "@types/feather-icons": "^4.29.3",
     "@types/node": "^20.8.6",
     "@types/react": "^18.2.15",
     "@types/react-scroll": "^1.8.9",

@@ -1,5 +1,5 @@
 import logo from '@/assets/images/Logo.png';
-import { Mail, Twitter, Instagram, Facebook } from 'feather-icons-react';
+import { Mail, Twitter, Instagram, Facebook } from 'react-feather';
 
 const Footer = () => {
   return (
