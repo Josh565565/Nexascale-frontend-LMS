@@ -3,7 +3,10 @@ import howItWorks from '../../assets/images/howItWorks.png';
 
 const HowitWorks = () => {
   return (
-    <div className="flex w-full flex-wrap justify-between max-lg:flex-col">
+    <div
+      id="#howitworks"
+      className="flex w-full flex-wrap justify-between max-lg:flex-col"
+    >
       <div className="flex justify-center">
         <img
           src={howItWorks}
@@ -13,10 +16,10 @@ const HowitWorks = () => {
           className="justify-center object-contain"
         />
       </div>
-      <div>
+      <div className="max-lg:pt-20">
         {howItWork.map((item) => (
           <div
-            className="mb-5  flex w-full flex-col items-center justify-center"
+            className="mb-5  flex w-full flex-col items-center justify-center "
             key={item.label}
           >
             <img src={item.imgURL} alt={item.label} width={50} height={70} />
